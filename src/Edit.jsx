@@ -26,7 +26,7 @@ const Edit=()=>
     },[])
     const getdata=async ()=>
     {
-        const editdata=await axios.get("http://localhost/api/getval.php?id="+eid);
+        const editdata=await axios.get("https://application-react.000webhostapp.com/getval.php?id="+eid);
         setEdit(editdata.data);
         reset(editdata.data);
         
@@ -62,7 +62,7 @@ const Edit=()=>
       };
 
         
-        const result=await axios.post("http://localhost/api/edit.php",formData);
+        const result=await axios.post("https://application-react.000webhostapp.com/edit.php",formData);
         console.log(result.data)  
 
        if(result.data.result==="Data update")
@@ -99,7 +99,7 @@ const Edit=()=>
                         <label className="text-warning">Photo</label>
                         <input type="file" defaultValue={edit.image} onChange={handleFileChange} className="form-control" />
                         <br/>
-                        <img className="img-fluid" src={"http://localhost/api/Images/"+edit.image} alt=""  style={{width: '150px', height: '85px'}}/>
+                        <img className="img-fluid" src={"https://application-react.000webhostapp.com/Images/"+edit.image} alt=""  style={{width: '150px', height: '85px'}}/>
                         </td>
 
                          <td> 

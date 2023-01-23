@@ -34,7 +34,7 @@ const Booking=()=>
         
      let bookuser=async ()=>
         {
-            const res = await axios.post("http://localhost/api/adduser.php",formData,config);
+            const res = await axios.post("https://application-react.000webhostapp.com/adduser.php",formData,config);
 
             if(res.data.result=="Data Added")
             {

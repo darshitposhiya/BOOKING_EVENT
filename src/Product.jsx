@@ -16,7 +16,7 @@ const Product=()=>
             v='birthday'
         }
 
-        const user=await axios.get("http://localhost/api/showall.php?flt="+v);
+        const user=await axios.get("https://application-react.000webhostapp.com/showall.php?flt="+v);
         setCat(user.data)   
         
         
@@ -55,7 +55,7 @@ const Product=()=>
                     <div className="col-lg-6">
                                 <div className="d-flex h-100">
                                     <div className="flex-shrink-0">
-                                        <img className="img-fluid" src={"http://localhost/api/Images/"+val.image} alt=""  style={{width: '150px', height: '85px'}}/>
+                                        <img className="img-fluid" src={"https://application-react.000webhostapp.com/Images/"+val.image} alt=""  style={{width: '150px', height: '85px'}}/>
                                         <h4 className="bg-dark text-primary p-2 m-0">{val.price}</h4>
                                     </div>
                                     <div className="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">

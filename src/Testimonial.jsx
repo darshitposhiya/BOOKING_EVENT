@@ -15,7 +15,7 @@ const Testimonial=()=>
             <div className="owl-carousel testimonial-carousel">
                 <div className="testimonial-item bg-dark text-white border-inner p-4">
                     <div className="d-flex align-items-center mb-3">
-                        <img className="img-fluid flex-shrink-0" src="img/testimonial-1.jpg"  style={{width: '60px', height: '60px'}}/>
+                        <img className="img-fluid flex-shrink-0" src="BOOKING_EVENT/img/testimonial-1.jpg"  style={{width: '60px', height: '60px'}}/>
                         <div className="ps-3">
                             <h4 className="text-primary text-uppercase mb-1">Client Name</h4>
                             <span>Profession</span>
@@ -26,7 +26,7 @@ const Testimonial=()=>
                 </div>
                 <div className="testimonial-item bg-dark text-white border-inner p-4">
                     <div className="d-flex align-items-center mb-3">
-                        <img className="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style={{width: '60px', height: '60px'}}/>
+                        <img className="img-fluid flex-shrink-0" src="BOOKING_EVENT/img/testimonial-2.jpg" style={{width: '60px', height: '60px'}}/>
                         <div className="ps-3">
                             <h4 className="text-primary text-uppercase mb-1">Client Name</h4>
                             <span>Profession</span>
@@ -37,7 +37,7 @@ const Testimonial=()=>
                 </div>
                 <div className="testimonial-item bg-dark text-white border-inner p-4">
                     <div className="d-flex align-items-center mb-3">
-                        <img className="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style={{width: '60px', height: '60px'}}/>
+                        <img className="img-fluid flex-shrink-0" src="BOOKING_EVENT/img/testimonial-3.jpg" style={{width: '60px', height: '60px'}}/>
                         <div className="ps-3">
                             <h4 className="text-primary text-uppercase mb-1">Client Name</h4>
                             <span>Profession</span>
@@ -48,7 +48,7 @@ const Testimonial=()=>
                 </div>
                 <div className="testimonial-item bg-dark text-white border-inner p-4">
                     <div className="d-flex align-items-center mb-3">
-                        <img className="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style={{width: '60px', height: '60px'}}/>
+                        <img className="img-fluid flex-shrink-0" src="BOOKING_EVENT/img/testimonial-4.jpg" style={{width: '60px', height: '60px'}}/>
                         <div className="ps-3">
                             <h4 className="text-primary text-uppercase mb-1">Client Name</h4>
                             <span>Profession</span>

@@ -14,7 +14,7 @@ const About=()=>
             <div className="row gx-5">
                 <div className="col-lg-5 mb-5 mb-lg-0" style={{minHeight: '400px'}}>
                     <div className="position-relative h-100">
-                        <img className="position-absolute w-100 h-100" src="img/about.jpg" style={{objectFit : 'cover'}}/>
+                        <img className="position-absolute w-100 h-100" src="BOOKING_EVENT/img/about.jpg" style={{objectFit : 'cover'}} />
                     </div>
                 </div>
                 <div className="col-lg-6 pb-5">

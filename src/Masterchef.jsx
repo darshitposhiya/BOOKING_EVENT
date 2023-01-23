@@ -16,13 +16,13 @@ const Masterchef=()=>
 
      async function getdata ()
     {
-        const user=await axios.get("http://localhost/api/showall.php")
+        const user=await axios.get("https://application-react.000webhostapp.com/showall.php")
         setData(user.data)
 
     }
     const deletebooking=async (id)=>
     {
-        await axios.get("http://localhost/api/delete.php?did="+id)
+        await axios.get("https://application-react.000webhostapp.com/delete.php?did="+id)
         .then((result)=>{
             getdata();
             console.log(result.data)
@@ -68,7 +68,7 @@ const Masterchef=()=>
         },
       };
 
-      const eddata=await axios.post("http://localhost/api/editimage.php",formData);
+      const eddata=await axios.post("https://application-react.000webhostapp.com/editimage.php",formData);
     
 
       if(eddata.data.result==="Data update")
@@ -111,7 +111,7 @@ const Masterchef=()=>
                         {datas.map((val)=>
                          <tr>
                          <td>
-                         <img src={"http://localhost/api/Images/"+val.image}  height={100} width={100}
+                         <img src={"https://application-react.000webhostapp.com/Images/"+val.image}  height={100} width={100}
                          type='button'onClick={()=>singleedit(val.fid)}  /> </td>   
 
 
