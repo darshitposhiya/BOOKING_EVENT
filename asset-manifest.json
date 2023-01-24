@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/BOOKING_EVENT/static/css/main.64795357.css",
-    "main.js": "/BOOKING_EVENT/static/js/main.d1c33838.js",
+    "main.js": "/BOOKING_EVENT/static/js/main.e27ed55f.js",
     "static/media/hero.jpg": "/BOOKING_EVENT/static/media/hero.1f3d677412e70cf16d6b.jpg",
     "static/media/offer.jpg": "/BOOKING_EVENT/static/media/offer.277d0d07a9a3f0df8b31.jpg",
     "static/media/service.jpg": "/BOOKING_EVENT/static/media/service.100ba6da75c40df4fae6.jpg",
     "static/media/bg.jpg": "/BOOKING_EVENT/static/media/bg.23fd31ca827539b60d74.jpg",
     "index.html": "/BOOKING_EVENT/index.html",
     "main.64795357.css.map": "/BOOKING_EVENT/static/css/main.64795357.css.map",
-    "main.d1c33838.js.map": "/BOOKING_EVENT/static/js/main.d1c33838.js.map"
+    "main.e27ed55f.js.map": "/BOOKING_EVENT/static/js/main.e27ed55f.js.map"
   },
   "entrypoints": [
     "static/css/main.64795357.css",
-    "static/js/main.d1c33838.js"
+    "static/js/main.e27ed55f.js"
   ]
 }
