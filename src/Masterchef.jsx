@@ -101,12 +101,12 @@ const Masterchef=()=>
                 <div className="col-8 border-2 m-auto">
                     <table className="table-bordered" align="center" cellPadding={20} cellSpacing={10} border='2'>
                         <tr>
+                            <th>Image</th>
                             <th>Name</th>
                             <th>Occasion</th>
                             <th>Detail</th>
                             <th>Price</th>
-                            <th>Delete</th>
-                            <th>Edit</th>
+                            <th colSpan={2}>Action</th>  
                         </tr>
                         {datas.map((val)=>
                          <tr>
