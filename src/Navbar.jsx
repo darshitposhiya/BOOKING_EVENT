@@ -49,7 +49,7 @@ const Navbar=()=>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto mx-lg-auto py-0">
-                <NavLink to={'/'} className="nav-item nav-link active">Home</NavLink>
+                <NavLink to={'/'} className="nav-item nav-link">Home</NavLink>
                 <NavLink to={'/About'} className="nav-item nav-link">About Us</NavLink>
                 <NavLink to={'/Product'} className="nav-item nav-link">Menu & Pricing</NavLink>
                 <NavLink to={'/Masterchef'} className="nav-item nav-link">Master Chefs</NavLink>
@@ -68,7 +68,7 @@ const Navbar=()=>
        </div>
     </section>
     {
-        loc.pathname === '/BOOKING_EVENT' ?<Home></Home> : null
+        loc.pathname === '/BOOKING_EVENT' ? <Home/> : null
     }
 
         </>
