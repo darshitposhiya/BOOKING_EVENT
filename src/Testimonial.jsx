@@ -7,9 +7,9 @@ const Testimonial=()=>
         
      <div className="container-fluid py-5">
         <div className="container">
-            <div className="section-title position-relative text-center mx-auto mb-5 pb-3" style={{maxWidth: '600px'}}/>
-                <h2 className="text-primary font-secondary">Testimonial</h2>
-                <h1 className="display-4 text-uppercase">Our Clients Say!!!</h1>
+          <h2 className="text-primary text-center font-secondary">Testimonial</h2>
+           <h1 className="display-4 text-center text-uppercase">Our Clients Say!!!</h1>
+            <div className="section-title position-relative text-center mx-auto mb-5 pb-3" style={{maxWidth: '600px'}}/>    
             </div>
 
             <div className="owl-carousel testimonial-carousel">

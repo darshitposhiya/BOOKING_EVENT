@@ -19,7 +19,7 @@ const Contect=()=>
                     <div className="bg-primary border-inner text-center text-white p-5">
                         <i className="bi bi-envelope-open fs-1 text-white"></i>
                         <h6 className="text-uppercase my-2">Email Us</h6>
-                        <span>info@example.com</span>
+                         <span>info@exs.com </span>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6">

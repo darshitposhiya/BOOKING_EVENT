@@ -106,7 +106,7 @@ const Masterchef=()=>
                             <th>Occasion</th>
                             <th>Detail</th>
                             <th>Price</th>
-                            <th colSpan={2}>Action</th>  
+                            <th colSpan={2} className='text-center'>Action</th>  
                         </tr>
                         {datas.map((val)=>
                          <tr>

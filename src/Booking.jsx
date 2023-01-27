@@ -84,7 +84,7 @@ const Booking=()=>
                     <div className="text-center mt-2">
                     <label className="text-warning text-center">Choos occasion</label>
                     </div>
-                    <div className="col-8 ps-5 m-auto">
+                    <div className="col-md-12 text-center m-auto">
                          <div className="form-check form-check-inline text-center mt-3">
                             <input className="form-check-input" type="radio" value="birthday" {...register('occasion',{required:true})} />
                             <label className="form-check-label">Birthday</label>

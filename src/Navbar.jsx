@@ -8,6 +8,7 @@ const Navbar=()=>
 
     return(
         <>
+    <section>
         <div className="container-fluid px-0 d-none d-lg-block">
         <div className="row gx-0">
             <div className="col-lg-4 text-center bg-secondary py-3">
@@ -36,7 +37,9 @@ const Navbar=()=>
                 </div>
             </div>
         </div>
-
+        </div>
+        
+        <div>
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="#" className="navbar-brand d-block d-lg-none">
             <h1 className="m-0 text-uppercase text-white"><i className="fa fa-birthday-cake fs-1 text-primary me-3"></i>CakeZone</h1>
@@ -44,7 +47,7 @@ const Navbar=()=>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse-collapse" id="navbarCollapse">
+        <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto mx-lg-auto py-0">
                 <NavLink to={'/'} className="nav-item nav-link active">Home</NavLink>
                 <NavLink to={'/About'} className="nav-item nav-link">About Us</NavLink>
@@ -61,9 +64,9 @@ const Navbar=()=>
                 <NavLink to={'/Contect'} className="nav-item nav-link">Contact Us</NavLink>
             </div>
         </div>
-    </nav>
-
-    </div>
+       </nav>
+       </div>
+    </section>
     {
         loc.pathname === '/BOOKING_EVENT' ?<Home></Home> : null
     }
