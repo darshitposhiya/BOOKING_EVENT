@@ -9,7 +9,8 @@ const Testimonial=()=>
         <div className="container">
           <h2 className="text-primary text-center font-secondary">Testimonial</h2>
            <h1 className="display-4 text-center text-uppercase">Our Clients Say!!!</h1>
-            <div className="section-title position-relative text-center mx-auto mb-5 pb-3" style={{maxWidth: '600px'}}/>    
+            <div className="section-title position-relative text-center mx-auto mb-5 pb-3" style={{maxWidth: '600px'}}>    
+            </div>
             </div>
 
             <div className="owl-carousel testimonial-carousel">

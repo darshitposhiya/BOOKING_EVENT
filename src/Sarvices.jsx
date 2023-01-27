@@ -6,6 +6,10 @@ const Sarvices=()=>
         <>
         
         <div className="container-fluid service position-relative px-5 mt-5" style={{marginBottom: '135px'}}>
+        <h2 className="text-primary text-center font-secondary">service</h2>
+           <h1 className="display-4 text-center text-uppercase">Our Services</h1>
+            <div className="section-title position-relative text-center mx-auto mb-5" style={{maxWidth: '600px'}}>   
+            </div>
         <div className="container">
             <div className="row g-5">
                 <div className="col-lg-4 col-md-6">
