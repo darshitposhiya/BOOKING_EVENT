@@ -81,7 +81,7 @@ const Edit=()=>
             </div>
             
             <div className="row m-auto">
-                <div className="col-12 border-2 m-auto">
+                <div className="col-md-10 col-sm-12 border-2 m-auto table-responsive">
                 <form onSubmit={handleSubmit(onsubmit)}>
                          
                     <table className="table-bordered text-center" align="center" cellPadding={20} cellSpacing={10} border='2'>
@@ -91,7 +91,7 @@ const Edit=()=>
                             <th>Occasion</th>
                             <th>Detail</th>
                             <th>Price</th>
-                            <th>Edit</th>
+                            <th>Update</th>
                         </tr>
 
                         <tr>
@@ -133,7 +133,7 @@ const Edit=()=>
                         <input type="number" className="form-control"  placeholder="Enter Amount" {...register('price',{required:true})}/>
                         {errors.price ?.type==="required" && "enter price"}
                          </td>
-                         <td><input type='submit' value='Edit' className="btn btn-info"/></td>
+                         <td><input type='submit' value='Update' className="btn btn-info"/></td>
                      </tr>
                     </table>
                     </form>

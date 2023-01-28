@@ -98,7 +98,7 @@ const Masterchef=()=>
             </div>
             
             <div className="row m-auto">
-                <div className="col-8 border-2 m-auto">
+                <div className="col-md-10 border-2 m-auto table-responsive col-sm-12">
                     <table className="table-bordered" align="center" cellPadding={20} cellSpacing={10} border='2'>
                         <tr>
                             <th>Image</th>
