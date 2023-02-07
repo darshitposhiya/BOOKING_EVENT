@@ -68,7 +68,7 @@ const Navbar=()=>
        </div>
     </section>
     {
-        loc.pathname === '/BOOKING_EVENT' ? <Home/> : null
+        loc.pathname == '/BOOKING_EVENT' ? <Home/> : null
     }
 
         </>
